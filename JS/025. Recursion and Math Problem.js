@@ -23,6 +23,8 @@ function gcd(a, b) {
     if(a>b) return gcd(a-b,b)
     return gcd(a,b-a)
 }
+
+// >>leetcode problem : 1979
 var findGCDofMinMax = function(nums) {
     min=Math.min(...nums);
     max=Math.max(...nums);
@@ -32,6 +34,8 @@ var findGCDofMinMax = function(nums) {
     }
     return helper(min,max)
 };
+
+// >>leetcode problem : 50
 function myPow(n, p) {
     function helper(n, p){
         if (p === 0) return 1;

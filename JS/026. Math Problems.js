@@ -1,3 +1,4 @@
+// >>leetcode problem : 69
 var mySqrt = function(x) {
     let i=0
     for(;i*i<=x;i++){
@@ -5,6 +6,8 @@ var mySqrt = function(x) {
     }
     return i-1
 };
+
+// >>leetcode problem : 204
 function countPrimes(n) {
     let arr= new Array(n+1).fill(true)
     let primes=[]
